@@ -1,0 +1,110 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+
+.slide {
+    width: 100vw;
+    height: 120vh;
+  }
+  .wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 500vw;
+  }
+
+  .generalstyle{
+    text-align: center;
+    padding-top: 30px;
+
+
+  }
+
+  h1 { text-align: cen;
+    writing-mode: vertical-rl;
+text-orientation: ;
+top: 40px;
+
+
+
+  }
+
+p {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  
+}
+
+
+
+
+}
+
+img {
+  position: absolute;
+  width: 30%;
+  object-fit: contain;
+  transform: translateX(-50%) translateY(-50%);
+  top: 50%;
+  left: 50%;
+  z-index: 10;
+}
+
+
+
+  .imgWrapper{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;  
+      align-items: center;
+      gap:20px;
+
+  }
+
+  .imagestyle{
+    display: 900px;
+    height: 200px;
+    width: 300px;
+    
+  }
+
+  .imagestyle2{
+
+    height: 400px;
+    width: 200px;
+    object-position: 00px,100px;
+
+    
+  }
+
+
+
+  .one {
+    background: #f0f0f0;
+/*     background-image: url(image4.png);
+    background-size: cover;
+    padding-bottom: 90px; */
+    text
+    
+  }
+
+  .two {
+  
+    background: #d3d3d3;
+    
+  }
+  .three {
+    background: #f0f0f0;
+  }
+  .four {
+    background: #d3d3d3;
+  }
+
+  .floating{
+    float: left;
+    display: inline-block;
+    width: 200px;
+
+}
+
